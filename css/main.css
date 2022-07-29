@@ -1,0 +1,283 @@
+body{
+	font-family: 'Nunito', sans-serif;
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 400;
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.header{
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+}
+
+.navigation , .logo , .nav , section{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo-icon {
+	margin-right: 40px;
+}
+
+.link{
+	margin-right: 30px;
+	text-decoration: none;
+	color: black;
+}
+
+.btn{
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	border-radius: 48px;
+	padding: 12px 32px;
+	}
+
+.logo{
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.presentation{
+	padding-top: 20px;
+}
+
+.boost{
+	margin-top: 23px;
+	margin-bottom: 99px;
+}
+
+.boost-text{
+	padding-top: 250px;
+}
+
+.ZEN-care{
+
+	padding-bottom: 170px;
+}
+
+.care-text{
+	padding-top: 180px;
+}
+
+.cashback{
+
+	padding-bottom: 35px;
+}
+
+.cashback-text{
+	padding-top: 60px;
+}
+
+.mastercard{
+
+	padding-top: 47px;
+	padding-bottom: 133px;
+}
+
+.mastercard-text{
+	padding-top: 68px;
+}
+
+.shopping{
+	padding-bottom: 123px;
+}
+
+.shopping-text{
+	padding-top: 144px;
+}
+
+.app{
+	padding-bottom: 67px;
+}
+
+.app-text{
+	padding-top: 173px;
+}
+
+.account{
+	padding-bottom: 125px;
+}
+
+.account-text{
+	padding-top: 108px;
+}
+
+.offer{
+	max-width: 400px;
+	margin-top: 145px;
+}
+
+h1{
+	font-size: 42px;
+	line-height: 50px;
+}
+
+p{
+	line-height: 26px;
+}
+
+.play{
+	padding-left: 40px;
+	background-image: url("/Landing/ZEN/img/ico-play\ 1.svg");
+	background-repeat: no-repeat;
+	height: 30px;
+}
+
+.link-apps{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	max-width: 170px;
+	margin-bottom: 82px;	
+}
+
+.btn-apps{
+	border: 1px solid #A6A6A6;
+	box-sizing: border-box;
+	border-radius: 5px;
+	padding: 5px 10px 5px 50px;
+	flex-basis: 100%;
+	background-color: #000000;
+	font-size: 11px;
+	line-height: 16px;
+	text-decoration: none;
+	color: #fff;
+	height: 50px;
+}
+.app-store{
+	font-size: 22px;
+}
+
+.play-market{
+	font-size: 19px;
+}
+
+
+.apps-apple{
+	background-image: url("/Landing/ZEN/img/Vector.svg");
+	background-repeat: no-repeat;
+	background-position: center left 15px;
+}
+
+.apps-android{
+	background-image: url("/Landing/ZEN/img/google-play.svg");
+	background-repeat: no-repeat;
+	background-position: center left 15px;
+	background-size: 30px;
+	margin-top: 20px;
+}
+
+h2{
+	font-size: 36px;
+	line-height: 43px;	
+}
+
+.section-text{
+	max-width: 480px;
+}
+
+.cashback{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.cashback-text{
+	margin: 0 auto;
+	text-align: center;
+	max-width:600px;
+}
+
+.cashback-link{
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+
+.partners{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	margin: 0 auto;
+	width: 1200px;
+	align-items: center;
+}
+.partners-icon{
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+
+
+.link-apps2{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	max-width: 360px;	
+}
+
+.btn2{
+	flex-basis: 47%;
+	margin: 0;
+}
+
+ul{
+	padding: 0;
+}
+
+li{
+	list-style-type:  none;
+	padding-bottom: 15px;
+	font-size: 14px;
+	line-height: 19px;
+}
+
+.footer-nav{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	box-shadow: 0px -1px 0px#CBD6E2;
+}
+
+.sitemap{
+	padding-top: 70px;
+}
+
+.li-menu{
+	padding-bottom: 33px;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.about{
+	margin-top: 40px;
+}
+.info{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;	
+	margin-bottom: 60px;
+	margin-top: 20px;
+	
+}
+
+.footer-text{
+	font-size: 12px;
+	line-height: 16px;
+	color: #AAAAAA;
+	max-width: 840px;
+}
